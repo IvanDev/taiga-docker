@@ -21,7 +21,7 @@ x-volumes:
 
 services:
   taiga-manage:
-    image: taigaio/taiga-back:latest
+    image: ghcr.io/ivandev/taiga-back:latest
     environment: *default-back-environment
     depends_on:
       - taiga-db
